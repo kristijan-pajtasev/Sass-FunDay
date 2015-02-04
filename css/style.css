@@ -30,5 +30,125 @@ body, html {
       body > div:first-of-type, html > div:first-of-type {
         background: #779ECB url("../images/xlg/background.jpg") no-repeat fixed center;
         background-size: cover; } }
+  body .division-1, html .division-1 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 100%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-1, html .division-1 {
+        width: 100%; } }
+  body .division-2, html .division-2 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 50%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-2, html .division-2 {
+        width: 100%; } }
+  body .division-3, html .division-3 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-3, html .division-3 {
+        width: 100%; } }
+  body .division-4, html .division-4 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 25%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-4, html .division-4 {
+        width: 100%; } }
+  body .division-5, html .division-5 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 20%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-5, html .division-5 {
+        width: 100%; } }
+  body .division-6, html .division-6 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 16.66667%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-6, html .division-6 {
+        width: 100%; } }
+  body .division-7, html .division-7 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 14.28571%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-7, html .division-7 {
+        width: 100%; } }
+  body .division-8, html .division-8 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 12.5%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-8, html .division-8 {
+        width: 100%; } }
+  body .division-9, html .division-9 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 11.11111%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-9, html .division-9 {
+        width: 100%; } }
+  body .division-10, html .division-10 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 10%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-10, html .division-10 {
+        width: 100%; } }
+  body .division-11, html .division-11 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 9.09091%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-11, html .division-11 {
+        width: 100%; } }
+  body .division-12, html .division-12 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 8.33333%;
+    float: left; }
+    @media (max-width: 600px) {
+      body .division-12, html .division-12 {
+        width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

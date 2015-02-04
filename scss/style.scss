@@ -26,4 +26,11 @@ body, html {
   >div:first-of-type {
     @include responsive-background("background.jpg");
   }
+
+  @for $i from 1 through 12 {
+    .division-#{$i} {
+      @include division($i);
+    }
+  }
+
 }

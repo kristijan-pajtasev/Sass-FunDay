@@ -25,4 +25,10 @@
   padding: 0;
   height: auto;
   box-sizing: border-box;
+  width: 100% / $divider;
+  float: left;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
