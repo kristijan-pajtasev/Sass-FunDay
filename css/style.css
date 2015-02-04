@@ -16,6 +16,8 @@ body, html {
   body > div:nth-of-type(2n), html > div:nth-of-type(2n) {
     color: #779ECB;
     background-color: #2a2a2a; }
+    body > div:nth-of-type(2n) .card > div, html > div:nth-of-type(2n) .card > div {
+      border-color: #779ECB; }
   body > div:first-of-type, html > div:first-of-type {
     background: #779ECB url("../images/lg/background.jpg") no-repeat fixed center;
     background-size: cover; }
@@ -37,7 +39,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 100%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-1, html .division-1 {
         width: 100%; } }
@@ -47,7 +50,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 50%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-2, html .division-2 {
         width: 100%; } }
@@ -57,7 +61,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 33.33333%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-3, html .division-3 {
         width: 100%; } }
@@ -67,7 +72,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 25%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-4, html .division-4 {
         width: 100%; } }
@@ -77,7 +83,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 20%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-5, html .division-5 {
         width: 100%; } }
@@ -87,7 +94,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 16.66667%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-6, html .division-6 {
         width: 100%; } }
@@ -97,7 +105,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 14.28571%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-7, html .division-7 {
         width: 100%; } }
@@ -107,7 +116,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 12.5%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-8, html .division-8 {
         width: 100%; } }
@@ -117,7 +127,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 11.11111%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-9, html .division-9 {
         width: 100%; } }
@@ -127,7 +138,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 10%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-10, html .division-10 {
         width: 100%; } }
@@ -137,7 +149,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 9.09091%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-11, html .division-11 {
         width: 100%; } }
@@ -147,7 +160,8 @@ body, html {
     height: auto;
     box-sizing: border-box;
     width: 8.33333%;
-    float: left; }
+    float: left;
+    position: relative; }
     @media (max-width: 600px) {
       body .division-12, html .division-12 {
         width: 100%; } }
@@ -158,6 +172,7 @@ body, html {
     box-sizing: border-box;
     width: 100%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-1, html .padded-division-1 {
@@ -169,6 +184,7 @@ body, html {
     box-sizing: border-box;
     width: 50%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-2, html .padded-division-2 {
@@ -180,6 +196,7 @@ body, html {
     box-sizing: border-box;
     width: 33.33333%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-3, html .padded-division-3 {
@@ -191,6 +208,7 @@ body, html {
     box-sizing: border-box;
     width: 25%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-4, html .padded-division-4 {
@@ -202,6 +220,7 @@ body, html {
     box-sizing: border-box;
     width: 20%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-5, html .padded-division-5 {
@@ -213,6 +232,7 @@ body, html {
     box-sizing: border-box;
     width: 16.66667%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-6, html .padded-division-6 {
@@ -224,6 +244,7 @@ body, html {
     box-sizing: border-box;
     width: 14.28571%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-7, html .padded-division-7 {
@@ -235,6 +256,7 @@ body, html {
     box-sizing: border-box;
     width: 12.5%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-8, html .padded-division-8 {
@@ -246,6 +268,7 @@ body, html {
     box-sizing: border-box;
     width: 11.11111%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-9, html .padded-division-9 {
@@ -257,6 +280,7 @@ body, html {
     box-sizing: border-box;
     width: 10%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-10, html .padded-division-10 {
@@ -268,6 +292,7 @@ body, html {
     box-sizing: border-box;
     width: 9.09091%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-11, html .padded-division-11 {
@@ -279,9 +304,31 @@ body, html {
     box-sizing: border-box;
     width: 8.33333%;
     float: left;
+    position: relative;
     padding: 10px; }
     @media (max-width: 600px) {
       body .padded-division-12, html .padded-division-12 {
         width: 100%; } }
+  body .card, html .card {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    position: relative;
+    height: 50%; }
+    @media (max-width: 600px) {
+      body .card, html .card {
+        width: 100%; } }
+    body .card > div, html .card > div {
+      position: absolute;
+      height: 80%;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border: thin solid #779ECB; }
 
 /*# sourceMappingURL=style.css.map */

@@ -27,8 +27,20 @@
   box-sizing: border-box;
   width: 100% / $divider;
   float: left;
+  position: relative;
 
   @media (max-width: 600px) {
     width: 100%;
   }
+}
+
+@mixin absolute-center {
+  position: absolute;
+  height: 80%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: thin solid $pastel_blue;
 }
