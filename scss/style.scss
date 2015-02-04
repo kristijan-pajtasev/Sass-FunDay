@@ -42,7 +42,7 @@ body, html {
 
   @for $i from 1 through 12 {
     .padded-division-#{$i} {
-      @include division($i);
+      @extend .division-#{$i};
       padding: 10px;
     }
   }
