@@ -4,7 +4,7 @@ body, html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-y: scroll; }
+  overflow-y: auto; }
   body > div, html > div {
     width: 100%;
     height: 100%;
@@ -15,5 +15,8 @@ body, html {
   body > div:nth-of-type(2n), html > div:nth-of-type(2n) {
     color: #779ECB;
     background-color: #2a2a2a; }
+  body > div:first-of-type, html > div:first-of-type {
+    background: #779ECB url("../images/lg/background.jpg") no-repeat fixed center;
+    background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+@import "variables";
+
+@mixin responsive-background($background-name) {
+  background: $pastel_blue url("../images/lg/" + $background-name) no-repeat fixed center;
+  background-size: cover;
+}

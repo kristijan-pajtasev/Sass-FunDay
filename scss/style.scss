@@ -7,7 +7,7 @@ body, html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   >div {
     width: 100%;
@@ -17,8 +17,13 @@ body, html {
     background-color: $pastel_blue;
     color: $dark_grey;
   }
+
   >div:nth-of-type(2n) {
     color: $pastel_blue;
     background-color: $dark_grey;
+  }
+
+  >div:first-of-type {
+    @include responsive-background("background.jpg");
   }
 }
