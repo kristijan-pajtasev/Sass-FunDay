@@ -3,4 +3,19 @@
 @mixin responsive-background($background-name) {
   background: $pastel_blue url("../images/lg/" + $background-name) no-repeat fixed center;
   background-size: cover;
+
+  @media(max-width: 800px) {
+    background: $pastel_blue url("../images/sm/" + $background-name) no-repeat fixed center;
+    background-size: cover;
+  }
+
+  @media(min-width: 800px) and (max-width: 1024px) {
+    background: $pastel_blue url("../images/md/" + $background-name) no-repeat fixed center;
+    background-size: cover;
+  }
+
+  @media(min-width: 1280px) {
+    background: $pastel_blue url("../images/xlg/" + $background-name) no-repeat fixed center;
+    background-size: cover;
+  }
 }

@@ -18,5 +18,17 @@ body, html {
   body > div:first-of-type, html > div:first-of-type {
     background: #779ECB url("../images/lg/background.jpg") no-repeat fixed center;
     background-size: cover; }
+    @media (max-width: 800px) {
+      body > div:first-of-type, html > div:first-of-type {
+        background: #779ECB url("../images/sm/background.jpg") no-repeat fixed center;
+        background-size: cover; } }
+    @media (min-width: 800px) and (max-width: 1024px) {
+      body > div:first-of-type, html > div:first-of-type {
+        background: #779ECB url("../images/md/background.jpg") no-repeat fixed center;
+        background-size: cover; } }
+    @media (min-width: 1280px) {
+      body > div:first-of-type, html > div:first-of-type {
+        background: #779ECB url("../images/xlg/background.jpg") no-repeat fixed center;
+        background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */
