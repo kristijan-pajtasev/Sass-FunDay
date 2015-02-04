@@ -11,7 +11,8 @@ body, html {
     padding: 0;
     margin: 0;
     background-color: #779ECB;
-    color: #2a2a2a; }
+    color: #2a2a2a;
+    position: relative; }
   body > div:nth-of-type(2n), html > div:nth-of-type(2n) {
     color: #779ECB;
     background-color: #2a2a2a; }
@@ -149,6 +150,138 @@ body, html {
     float: left; }
     @media (max-width: 600px) {
       body .division-12, html .division-12 {
+        width: 100%; } }
+  body .padded-division-1, html .padded-division-1 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-1, html .padded-division-1 {
+        width: 100%; } }
+  body .padded-division-2, html .padded-division-2 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-2, html .padded-division-2 {
+        width: 100%; } }
+  body .padded-division-3, html .padded-division-3 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-3, html .padded-division-3 {
+        width: 100%; } }
+  body .padded-division-4, html .padded-division-4 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-4, html .padded-division-4 {
+        width: 100%; } }
+  body .padded-division-5, html .padded-division-5 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-5, html .padded-division-5 {
+        width: 100%; } }
+  body .padded-division-6, html .padded-division-6 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 16.66667%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-6, html .padded-division-6 {
+        width: 100%; } }
+  body .padded-division-7, html .padded-division-7 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 14.28571%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-7, html .padded-division-7 {
+        width: 100%; } }
+  body .padded-division-8, html .padded-division-8 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 12.5%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-8, html .padded-division-8 {
+        width: 100%; } }
+  body .padded-division-9, html .padded-division-9 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 11.11111%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-9, html .padded-division-9 {
+        width: 100%; } }
+  body .padded-division-10, html .padded-division-10 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 10%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-10, html .padded-division-10 {
+        width: 100%; } }
+  body .padded-division-11, html .padded-division-11 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 9.09091%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-11, html .padded-division-11 {
+        width: 100%; } }
+  body .padded-division-12, html .padded-division-12 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    width: 8.33333%;
+    float: left;
+    padding: 10px; }
+    @media (max-width: 600px) {
+      body .padded-division-12, html .padded-division-12 {
         width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

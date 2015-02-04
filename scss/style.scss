@@ -16,6 +16,7 @@ body, html {
     margin: 0;
     background-color: $pastel_blue;
     color: $dark_grey;
+    position: relative;
   }
 
   >div:nth-of-type(2n) {
@@ -30,6 +31,13 @@ body, html {
   @for $i from 1 through 12 {
     .division-#{$i} {
       @include division($i);
+    }
+  }
+
+  @for $i from 1 through 12 {
+    .padded-division-#{$i} {
+      @include division($i);
+      padding: 10px;
     }
   }
 
